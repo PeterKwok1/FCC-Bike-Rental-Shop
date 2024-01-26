@@ -140,3 +140,4 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=bikes
 sudo service postgresql restart
 psql --username=freecodecamp --dbname=bikes
+psql --username=freecodecamp --dbname=bikes
