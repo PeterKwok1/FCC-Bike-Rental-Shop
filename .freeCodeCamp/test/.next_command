@@ -217,3 +217,5 @@ __vsc_prompt_cmd_original
 help if
 help expression
 help let
+./bike-shop.sh g
+./bike-shop.sh
