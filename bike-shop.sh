@@ -22,6 +22,7 @@ MAIN_MENU () {
 
 RENT_MENU () {
   # get available bikes
+  AVAILABLE_BIKES=$($PSQL "SELECT bike_id, type, size FROM bikes WHERE available=true ORDER BY bike_id")
   # if no bikes available
   # send to main menu
 }
