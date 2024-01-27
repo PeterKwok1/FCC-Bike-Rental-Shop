@@ -8,12 +8,12 @@ MAIN_MENU() {
   read MAIN_MENU_SELECTION
 }
 
-RENT_MENU(){
+RENT_MENU() {
   echo Rent Menu
 }
 
 RETURN_MENU() {
-  
+  echo Return Menu
 }
 
 MAIN_MENU
