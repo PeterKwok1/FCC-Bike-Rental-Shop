@@ -203,3 +203,8 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh 1
+./bike-shop.sh f
+./bike-shop.sh 2
+./bike-shop.sh 3
+./bike-shop.sh
