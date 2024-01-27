@@ -208,3 +208,12 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./bike-shop.sh 2
 ./bike-shop.sh 3
 ./bike-shop.sh
+man expression
+help expression
+help [
+help test
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+help if
+help expression
+help let
