@@ -39,6 +39,10 @@ RENT_MENU () {
     echo -e "\nWhich one would you like to rent?"
     read BIKE_ID_TO_RENT
     # if input is not a number 
+    if [[ ! $BIKE_ID_TO_RENT =~ ^[0-9]+$ ]] 
+    then
+      # send to main menu
+    fi
     # send to main menu
   fi
 }
