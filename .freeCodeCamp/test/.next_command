@@ -255,3 +255,4 @@ git commit -m 'menu bash script'
 git push
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
