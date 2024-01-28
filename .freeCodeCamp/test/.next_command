@@ -327,3 +327,4 @@ psql --username=freecodecamp --dbname=bikes
 __vsc_prompt_cmd_original
 __vsc_prompt_cmd_original
 [[ ! 11 =~ ^[0-9]+$ ]]
+./bike-shop.sh
