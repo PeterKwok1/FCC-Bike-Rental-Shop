@@ -57,14 +57,20 @@ RENT_MENU() {
       then
         # send to main menu
         MAIN_MENU "That bike is not available."
-      else 
+      else
         # get customer info
         echo -e "\nWhat's your phone number?"
         read PHONE_NUMBER
-        CUSTOMER_NAME=$($PSQL "SELECT name FROM customers WHERE phone='$PHONE_NUMBER'")
+
+        CUSTOMER_NAME=$($PSQL "SELECT name FROM customers WHERE phone = '$PHONE_NUMBER'")
+
         # if customer doesn't exist
+        if [[ -z $CUSTOMER_NAME ]]
+        then
         # get new customer name
+
         # insert new customer
+        fi
       fi
     fi
   fi
