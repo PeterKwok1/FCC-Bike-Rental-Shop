@@ -80,6 +80,7 @@ RENT_MENU() {
         # set bike availability to false
         SET_TO_FALSE_RESULT=$($PSQL "UPDATE bikes SET available=false WHERE bike_id=$BIKE_ID_TO_RENT")
         # get bike info
+        BIKE_INFO=$($PSQL "SELECT size, type FROM bikes WHERE bike_id=$BIKE_ID_TO_RENT")
         # send to main menu
       fi
     fi
