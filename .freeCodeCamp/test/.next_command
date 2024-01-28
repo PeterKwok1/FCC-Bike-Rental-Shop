@@ -253,3 +253,4 @@ psql --username=freecodecamp --dbname=bikes
 git add .
 git commit -m 'menu bash script'
 git push
+./bike-shop.sh
