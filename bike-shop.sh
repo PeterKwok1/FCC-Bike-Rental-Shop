@@ -31,6 +31,7 @@ RENT_MENU () {
     MAIN_MENU "Sorry, we don't have any bikes available right now."
   else
     # display available bikes
+    echo -e "\nHere are the bikes we have available:"
     # ask for bike to rent
     # if input is not a number 
     # send to main menu
