@@ -251,3 +251,5 @@ psql --username=freecodecamp --dbname=bikes
 sudo service postgresql restart
 psql --username=freecodecamp --dbname=bikes
 git add .
+git commit -m 'menu bash script'
+git push
