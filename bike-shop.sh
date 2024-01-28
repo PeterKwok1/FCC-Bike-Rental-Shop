@@ -104,5 +104,3 @@ EXIT() {
 }
 
 MAIN_MENU
-
-echo "$(echo ' M e ' | sed 's/^ //g')."
