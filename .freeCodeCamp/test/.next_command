@@ -319,3 +319,4 @@ psql --username=freecodecamp --dbname=bikes
 ./bike-shop.sh
 ./bike-shop.sh
 [[ a =~ [0-9] ]]
+[[ a1 =~ [0-9] ]]
