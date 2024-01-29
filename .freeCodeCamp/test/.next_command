@@ -415,3 +415,4 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 echo "$(echo ' M e ' | sed 's/^ //g')"
 echo "$(echo ' M e ' | sed 's/^ //g')."
+echo "$(echo ' M e ' | sed 's/^ *//g')."
