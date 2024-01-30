@@ -137,7 +137,9 @@ RETURN_MENU() {
           # send to main menu
           MAIN_MENU "You do not have that bike rented."
         else
-
+          # update date_returned
+          # set bike availability to true
+          # send to main menu
         fi
       fi
     fi
