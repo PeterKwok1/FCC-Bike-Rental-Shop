@@ -116,6 +116,7 @@ RETURN_MENU() {
       MAIN_MENU "You do not have any bikes rented."
     else
       # display rented bikes
+      echo -e "\nHere are your rentals:"
       # ask for bike to return
       # if not a number
       # send to main menu
