@@ -497,3 +497,7 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
+psql -U postgres < bikes.sql
+psql -U postgres < bikes.sql
+git add .
