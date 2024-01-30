@@ -116,7 +116,7 @@ RETURN_MENU() {
     else
       # display rented bikes
       echo -e "\nHere are your rentals:"
-    echo "$CUSTOMER_RENTALS"
+      echo "$CUSTOMER_RENTALS"
       # ask for bike to return
       # if not a number
       # send to main menu
